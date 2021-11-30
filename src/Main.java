@@ -8,7 +8,7 @@ public class Main {
         if (total >1000) {
             System.out.println("Начисленно бонусов " + bonus);
         } else {
-            System.out.println("Для получения бонуса неооходимо пополнить баланс");
+            System.out.println("Для получения бонуса необходимо пополнить баланс");
         }
 
 
