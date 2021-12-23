@@ -1,15 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int score = 250;
-        int total = 1100;
-        int bonus = total / 100;
+        int score = 100;
+        int total = 1800;
         int result = score + total;
-        System.out.println("Итоговый счёт " + result);
-        if (total >1000) {
+        int bonus = 0;
+        if (total > 1000) {
+            bonus = total / 100;
             System.out.println("Начисленно бонусов " + bonus);
         } else {
-            System.out.println("Для получения бонуса необходимо пополнить баланс");
+            System.out.println("Для получения бонуса неооходимо пополнить баланс");
         }
+        System.out.println("Итоговый счёт " + (result + bonus));
 
 
 
